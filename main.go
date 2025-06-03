@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/erikaperciliano/Guessing-Game/game"
+)
 
 func main() {
-	fmt.Println("Guessing Game!")
+	game.MyLogic()
 }
